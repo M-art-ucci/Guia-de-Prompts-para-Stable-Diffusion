@@ -7,9 +7,9 @@
 </h1>
 <a href="https://tecnoblog.net/responde/como-usar-o-github-guia-para-iniciantes/">Como usar Github?</a>
 
-# Guia de prompt para Stable Diffusion
+# Guia de prompts para Stable Diffusion
   	
-  <a href="[b27da3676739813c35aa2d6aac4bd6d1326a2a7b](https://github.com/M-art-ucci/Stable-Diffusion-pt-BR-Definitivo/commit/b27da3676739813c35aa2d6aac4bd6d1326a2a7b)](https://img.shields.io/badge/%C3%BAltima%20modifica%C3%A7%C3%A3o-12%2F11%2F2022-green"><img src="https://img.shields.io/badge/%C3%BAltima%20modifica%C3%A7%C3%A3o-12%2F11%2F2022-green">
+  <a href="[b27da3676739813c35aa2d6aac4bd6d1326a2a7b](https://github.com/M-art-ucci/Stable-Diffusion-pt-BR-Definitivo/commit/b27da3676739813c35aa2d6aac4bd6d1326a2a7b)](https://img.shields.io/badge/%C3%BAltima%20modifica%C3%A7%C3%A3o-12%2F11%2F2022-green"><img src="https://img.shields.io/badge/%C3%BAltima%20modifica%C3%A7%C3%A3o-23%2F11%2F2022-green">
 
 ### Baseado no livro [Stable Diffusion Prompt Book ](https://openart.ai/promptbook)
 <div align="left"> E experimentações pessoais
@@ -18,12 +18,13 @@
 ---
 <div>
 <h3><details open><summary><b>Índice</b></summary>
-    1. O que é o Prompt (txt2img)<br>
-    2. O que é Engenharia de Prompt?<br>
-    3. Formato de Prompt
-    4. Modificadores de Prompt<br>
-    5. Parâmetros de Geração de Imagem<br>
-    6. Geração de Imagens a partir de outra imagem (img2img)<br>
+
+   [1. O que é o Prompt (txt2img)](https://github.com/M-art-ucci/Guia-de-Prompts-para-Stable-Diffusion#o-que-%C3%A9-o-prompt-txt2img) <br>
+   [2. O que é Engenharia de Prompt?](https://github.com/M-art-ucci/Guia-de-Prompts-para-Stable-Diffusion#o-que-%C3%A9-engenharia-de-prompt)<br>
+   [3. Formato de Prompt](https://github.com/M-art-ucci/Guia-de-Prompts-para-Stable-Diffusion#formato-de-prompt)<br>
+   [4. Modificadores de Prompt](https://github.com/M-art-ucci/Guia-de-Prompts-para-Stable-Diffusion#modificadores-de-prompt)<br>
+   [5. Parâmetros de Geração de Imagem](https://github.com/M-art-ucci/Guia-de-Prompts-para-Stable-Diffusion#par%C3%A2metros-de-gera%C3%A7%C3%A3o-de-imagem)<br>
+   [6. Geração de Imagens a partir de outra imagem (img2img)]()<br>
 
 </div>
  
@@ -133,11 +134,11 @@ Os modificadores são palavras ou frases específicas que podem alterar diversas
 
 | Enquadramento (Shot) | Estilo (Style) | Objeto (Subject) | Iluminação (Lighting) | Contexto (Context) | Lente (Lens)| Equipamento (Device) | Resultado
 | --- | --- | --- |---|---|---|--- |---
-|Close-up | Monochromatic | Woman | Soft | Indoor | Wide-angle | Polaroid | 
-|Extreme Close-up | Out of focus | Old man | Ambient|  Outdoor | Telephoto | Nikon Z FX | 
-|POV| Long exposure | Grey cat | Ring|  At night | 24mm | CCTV | 
-|Medium shot | Color splash | Bunny | Sun | In the park | EF 70mm | Canon | 
-|Long shot | Tilt-shift | Ferrari | Cinematic | Studio | Bokeh | Gopro | 
+|Close-up | Monochromatic | Woman | Soft | Indoor | Wide-angle | Polaroid | <img src="Assets/Images/fotografia 2d e 3d/tmpbj0nswwh.png" max width=512>
+|Extreme Close-up | Out of focus | Old man | Ambient|  Outdoor | Telephoto | Nikon Z FX | <img src="Assets/Images/fotografia 2d e 3d/tmpyowx1o3c.png" max width=512>
+|POV| Long exposure | Grey cat | Ring|  At night | 24mm | CCTV |<img src="Assets/Images/fotografia 2d e 3d/tmpzngaobfr.png" max width=512>
+|Medium shot | Color splash | Bunny | Sun | In the park | EF 70mm | Canon | <img src="Assets/Images/fotografia 2d e 3d/tmp4fytfis4.png" max width=512>
+|Long shot | Tilt-shift | Ferrari | Cinematic | Studio | Bokeh | Gopro | <img src="Assets/Images/fotografia 2d e 3d/tmpq0_r6z_j.png" max width=512>
 
 </blockquote></details>
 
@@ -145,8 +146,8 @@ Os modificadores são palavras ou frases específicas que podem alterar diversas
 
 | Giz(Chalk) | Graffiti | Aquarela (Watercolor) | Pintura a óleo (Oil Painting) | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
-A blackboard chalk painting of a samurai | overpass bridge graffiti art of a cyberpunk samurai  |water color painting of sunset behind mountains, detailed, vaporwave aesthetic |Oil painting of human Rick Sanchez, contest winner
+|<img src="Assets/Images/fotografia 2d e 3d/tmpg4yknws4.png" max width=512>|<img src="Assets/Images/fotografia 2d e 3d/04212-1671022150-cyberpunk samurai graffiti art on an overpass bridge.png" max width=512>|<img src="Assets/Images/fotografia 2d e 3d/tmpolfp4kue.png" max width=512>|<img src="Assets/Images/fotografia 2d e 3d/tmp7ulcft4k.png" max width=512>
+A blackboard **chalk** painting of a samurai | overpass bridge **graffiti** art of a cyberpunk samurai | **Watercolor** painting of a cute samurai surrounded by cherry blossoms, detailed, intricate, synthwave style |**Oil painting** of human Rick Sanchez, contest winner
 
 </blockquote></details>
 
@@ -154,8 +155,8 @@ A blackboard chalk painting of a samurai | overpass bridge graffiti art of a cyb
 
 | Crochê (Crochet) | Escultura em madeira (Wooden sculpture) | Origami | Render 3D (3D Render) | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
-A crochet of a cyberpunk samurai | Wooden sculpture bust of a cyberpunk samurai | Origami of a cyberpunk samurai |Oil painting of human Rick Sanchez, contest winner
+|<img src="Assets/Images/Gerais/03484-3344824390-A crochet of a cyberpunk samurai.png" max width=512>|<img src="Assets/Images/Gerais/03741-2695433493-Wooden sculpture bust of a cyberpunk samurai.png" max width=512>|<img src="Assets/Images/Gerais/03725-2931457671-Origami of a cyberpunk samurai.png" max width=512>|<img src="Assets/Images/Gerais/00833-3050814132-((low poly)) cyberpunk samurai character, 3d isometric render, dark background, ambient occlusion, unity engine.png" max width=512>
+A **crochet** of a cyberpunk samurai | **Wooden sculpture** bust of a cyberpunk samurai | **Origami** of a cyberpunk samurai | ((low poly)) cyberpunk samurai character, **3d isometric render**, dark background, ambient occlusion, unity engine
 
 </blockquote></details>
 
@@ -166,19 +167,19 @@ A escolha do estilo de um artista pode mudar completamente a composição da ima
 
 | Ruth Bernhard | Peter Kemp | Ray Earnes | Janek Sedlar | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/03454-4034008624-Closeup of a ballerina by the window and a city skyline in the background, photography, Ruth Bernhard.png" max width=512>|<img src="Assets/Images/Gerais/03453-4034008624-Closeup of a ballerina by the window and a city skyline in the background, photography, Peter Kemp.png" max width=512>|<img src="Assets/Images/Gerais/03452-4034008624-Closeup of a ballerina by the window and a city skyline in the background, photography, Ray Earnes.png" max width=512>|<img src="Assets/Images/Gerais/03450-4034008624-Closeup of a ballerina by the window and a city skyline in the background, photography, Janek Sedlar.png" max width=512>
 
 >Portrait of a cyberpunk samurai
 
 | Derek Gomes | Miles Aldridge | Jean Baptiste-Carpeaux | Anne-Louis Girodet | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/03633-3130906528-Portrait of a cyberpunk samurai, Derek Gores.png" max width=512>|<img src="Assets/Images/Gerais/03636-1067304776-Portrait of a cyberpunk samurai, Miles Aldridge.png" max width=512>|<img src="Assets/Images/Gerais/03637-3963125822-Portrait of a cyberpunk samurai, Jean Baptiste-Carpeaux.png" max width=512>|<img src="Assets/Images/Gerais/03639-3798240469-Portrait of a cyberpunk samurai, Anne-Louis Girodet.png" max width=512>
 
 Misture estilos diferentes!
 
-|A ballerina samurai, by Miles Aldridge | Graffiti | Water Colors | Oil Painting | 
-|---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|A ballerina samurai, by **Miles Aldridge** | A ballerina samurai, by **Anne-Louis Girodet** | A ballerina samurai, by **Anne-Louis Girodet _and_ Miles Aldrigde** 
+|---|---|---
+|<img src="Assets/Images/Gerais/tmp0xu3p9io.png" max width=512>|<img src="Assets/Images/Gerais/tmpasjn57t8.png" max width=512>|<img src="Assets/Images/Gerais/tmpvubmcz1k.png" max width=512>
 
 </blockquote></details>
 
@@ -198,15 +199,15 @@ Misture estilos diferentes!
 
 Emoções positivas
 
-| Resultado |  Resultado | Resultado | Resultado | 
+| <img src="Assets/Images/Gerais/04018-3252665009-Closeup photo of a beautiful happy woman wearing makeup, prairies, twilight, vivid colors, bokeh, highly detailed, award winning.png" max width=512> |  <img src="Assets/Images/Gerais/03032-268733187-A cat sleeping in the morning,  Cosy, photography.png" max width=512> | <img src="Assets/Images/Gerais/02881-2935881533-Romantic cats cuddling, photography.png" max width=512> | <img src="Assets/Images/Gerais/03042-3547819262-Medium shot of a joyful cat in a rooftop at night,  photography.png" max width=512> | 
 |---|---|---|---|
-| Closeup photo of a beautiful happy woman wearing makeup, prairies, twilight, vivid colors, bokeh, highly detailed, award winning | A cat sleeping in the morning, Cosy, photography| Romantic cats cuddling, photography | Medium shot of a joyful cat in a rooftop at night,  photography
+| Closeup photo of a beautiful **happy** woman wearing makeup, prairies, twilight, vivid colors, bokeh, highly detailed, award winning | A cat sleeping in the morning, **Cosy**, photography| **Romantic** cats cuddling, photography | Medium shot of a **joyful** cat in a rooftop at night,  photography
 
 Emoções negativas
 
-| Resultado |  Resultado | Resultado | Resultado | 
+| <img src="Assets/Images/Gerais/02894-2529852434-A grim city, photography.png" max width=512> |  <img src="Assets/Images/Gerais/03017-1366905566-Extreme closeup of a woman, double exposure with city lights, night,  Gloomy, photography.png" max width=512> | <img src="Assets/Images/Gerais/02917-2883736798-Fear in her eyes, photography.png" max width=512> | <img src="Assets/Images/Gerais/03945-2242145905-Extreme closeup photo of a refugee girl's green eyes, traditional clothes,  side profile, looking at the camera, sad eyes, 50mm.png" max width=512> | 
 |---|---|---|---|
-|A grim city, photography | Extreme closeup of a woman, double exposure with city lights, night,  Gloomy, photography| Fear in her eyes, photography | Extreme closeup photo of a refugee girl's green eyes, traditional clothes,  side profile, looking at the camera, sad eyes, 50mm
+|A **grim** city, photography | Extreme closeup of a woman, double exposure with city lights, night, **Gloomy**, photography| **Fear** in her eyes, photography | Extreme closeup photo of a refugee girl's green eyes, traditional clothes, side profile, looking at the camera, **sad** eyes, 50mm
 
 <details open><summary>Modificadores Mágicos</summary>
 
@@ -214,20 +215,20 @@ Alta definição
 
 |HDR | UHD | 64K |Highly detailed | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
-Digital art of a cyberpunk samurai, by wenjun lin, HDR, UHD | Digital painting portrait of a menacing cyberpunk samurai, UHD, Kentaro Miura | Portrait of a cyberpunk samurai, by wenjun lin, digital art, UHD, 64K | Splash art of a cyberpunk samurai, moba game, highly detailed, Alberto Seveso
+|<img src="Assets/Images/Gerais/02766-3269563992-Digital art of a cyberpunk samurai, by wenjun lin, HDR, UHD.png" max width=512>|<img src="Assets/Images/Gerais/03877-2719030782-Digital painting portrait of a menacing cyberpunk samurai, UHD, Kentaro Miura.png" max width=512>|<img src="Assets/Images/Gerais/02769-4116195813-Portrait of a cyberpunk samurai, by wenjun lin, digital art, UHD, 64K.png" max width=512>|<img src="Assets/Images/Gerais/02757-3013090988-Splash art of a cyberpunk samurai, moba game, highly detailed, Alberto Seveso.png" max width=512>
+Digital art of a cyberpunk samurai, by wenjun lin, **HDR**, **UHD** | Digital painting portrait of a menacing cyberpunk samurai, **UHD**, Kentaro Miura | Portrait of a cyberpunk samurai, by wenjun lin, digital art, **UHD**, **64K** | Splash art of a cyberpunk samurai, moba game, **highly detailed**, Alberto Seveso
 
 Profissionais
 
 | Photo of a bee on a red flower |Professional photo of a bee on a red flower | A cool samurai sword | A cool samurai sword, studio lighting | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/tmpv62gju_a.png" max width=512>|<img src="Assets/Images/Gerais/tmpjrzglu7d.png" max width=512>|<img src="Assets/Images/Gerais/tmp_z83mk32.png" max width=512>|<img src="Assets/Images/Gerais/tmpgftpdjwj.png" max width=512>
 
 Popularidade
 
 | pencil drawing of a young man | pencil drawing of a young man, trending on artstation | A ballerina by the window and a city skyline in the background | A ballerina by the window and a city skyline in the background, award winning photo | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado | Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/tmpvygw9cmp.png" max width=512>|<img src="Assets/Images/Gerais/tmpp4f9wtgu.png" max width=512>|<img src="Assets/Images/Gerais/tmpy_hkyo87.png" max width=512> | <img src="Assets/Images/Gerais/tmpvwt3l07r.png" max width=512>
 
 </blockquote></details>
 
@@ -241,7 +242,7 @@ Prompt: A blue monkey holding a red ball, 3D render
 
 | CFG: 1 | CFG: 5 | CFG: 15 | CFG: 21| CFG: 30 
 |---|---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/tmptkfpq16j.png" max width=512>|<img src="Assets/Images/Gerais/tmpcjc1yiif.png">|<img src="Assets/Images/Gerais/tmpzdcsosyb.png" max width=512>|<img src="Assets/Images/Gerais/tmpvtqns4xz.png" max width=512> |<img src="Assets/Images/Gerais/tmpckkrc78o.png" max width=512>
 
 Contador de Passos de Amostragem
 <br>
@@ -250,7 +251,7 @@ Quanto maior o valor, maior a definição da imagem e mais tempo para gerar.
 Prompt: A blue monkey holding a red ball, 3D render
 | Passos: 1 | Passos: 5 | Passos: 10 | Passos: 20 | Passos: 30 | Passos: 50 | Passos: 100 | Passos: 150 
 |---|---|---|---|---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/samplesteps1.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps5.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps10.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps20.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps30.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps50.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps100.png" max width=512>|<img src="Assets/Images/Gerais/samplesteps150.png" max width=512>
 
 Seed
 <br>
@@ -259,7 +260,7 @@ Seed
 Prompt: A blue monkey holding a red ball, 3D render
 | Seed: 2148213317 | Seed: 3534937562 | Seed: 2325907017 | Seed: 3915754044 | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/04391-2148213317-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/04394-3534937562-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/04395-2325907017-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/04398-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>
 
 
 Tipos de Amostragem
@@ -273,7 +274,7 @@ Prompt: A blue monkey holding a red ball, 3D render
 
 |Euler a | Euler | LMS | Heun | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/04399-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04400-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04401-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04403-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>
 
 Prompt: A blue monkey holding a red ball, 3D render
 <br> Seed: 3915754044
@@ -282,7 +283,7 @@ Prompt: A blue monkey holding a red ball, 3D render
 
 | DPM2 | DPM2 a | DPM++ 2S a | DPM++ 2M | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/sample method/04404-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04405-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04406-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04407-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>
 
 Prompt: A blue monkey holding a red ball, 3D render
 <br> Seed: 3915754044
@@ -291,7 +292,7 @@ Prompt: A blue monkey holding a red ball, 3D render
 
 |DPM  fast | DPM adaptive | LMS Karras | DPM2 Karras | 
 |---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/sample method/04408-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04409-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04410-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04411-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>
 
 Prompt: A blue monkey holding a red ball, 3D render
 <br> Seed: 3915754044
@@ -300,7 +301,7 @@ Prompt: A blue monkey holding a red ball, 3D render
 
 | DPM2 a Karras | DPM++ 2S a Karras | DPM++ 2M Karras | DDIM | PLMS |
 |---|---|---|---|---
-|Resultado|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/sample method/04412-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04413-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04414-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04415-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/sample method/04416-3915754044-A blue monkey holding a red ball, 3D render.png" max width=512>
 
 Eficiência de Tokens
 <br>
@@ -313,7 +314,7 @@ O prompt é limitado a 75 tokens (mais ou menos 75 palavras).
 Prompt: A blue monkey holding a red ball, 3D render
 | A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render, Black background, vibrant colors, highly detailed, intricate | A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render, Black background, vibrant colors, highly detailed | A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render, Black background, vibrant colors |A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render, Black background | A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render | A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski | A giant blue monkey holding a little red ball with green and yellow patterns, 3D render | A giant blue monkey holding a little red ball, 3D render 
 |---|---|---|---|---|---|---|---|
-|Resultado|Resultado|Resultado|Resultado|Resultado|Resultado|Resultado|Resultado
+|<img src="Assets/Images/Gerais/Token/04424-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render.png" max width=512>|<img src="Assets/Images/Gerais/Token/04426-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render.png" max width=512>|<img src="Assets/Images/Gerais/Token/04427-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render.png" max width=512>|<img src="Assets/Images/Gerais/Token/04428-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render.png" max width=512>|<img src="Assets/Images/Gerais/Token/04429-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski, Unreal Engine render.png" max width=512>|<img src="Assets/Images/Gerais/Token/04430-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render, by Greg Rutkowski.png" max width=512>|<img src="Assets/Images/Gerais/Token/04431-2282239514-A giant blue monkey holding a little red ball with green and yellow patterns, 3D render.png" max width=512>|<img src="Assets/Images/Gerais/Token/04432-2282239514-A giant blue monkey holding a little red ball, 3D render.png" max width=512>
 
 ---
 
